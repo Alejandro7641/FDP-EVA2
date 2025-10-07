@@ -39,6 +39,19 @@ public class EVA2_10_FOR {
         for(int i = tabla; i<=(tabla*10); i+=tabla){
         System.out.print(i+" - ");
         }
+        System.out.println("");
+        int ini, fin;
+        System.out.print("cual es el numero incial");
+        ini=capturar.nextInt();
+        System.out.print("cual es el numero final");
+        fin=capturar.nextInt();
+        for(int i = ini; i<=fin; i++){
+        System.out.print(i+" - ");
+        }
+        System.out.println("");
+        for(int i = fin; i>=ini; i--){
+        System.out.print(i+" - ");
+        }
     }
     
 }
