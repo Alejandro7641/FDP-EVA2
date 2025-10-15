@@ -29,5 +29,12 @@ public class EVA2_14_CAPTURA {
         for(int i=0; i<arreglo.length;i++){
         System.out.print("["+arreglo[i]+"]");
     }
+    int suma=0;
+    for(int i=0; i<arreglo.length;i++){
+        suma=suma+arreglo[i];
+    }
+    double promedio=suma/(double)cantidad;
+    System.out.println();
+    System.out.print("promedio="+promedio);
     
 }}
